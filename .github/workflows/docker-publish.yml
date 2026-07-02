@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/robott-1000/skills-publish-docker-images/
+          images: ghcr.io/robott-1000/skills-publish-docker-images/stackoverflown
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
